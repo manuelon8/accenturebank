@@ -1,0 +1,37 @@
+ï¿½"2018-12-03 14:49:55 [main] INFO  c.ws.creditcard.AppBankWApplication - Starting AppBankWApplication on CPX-P466KH3HQ5D with PID 38232 (C:\Users\m.martinez.gutierrez\eclipse-workspace\AppBankW\target\classes started by m.martinez.gutierrez in C:\Users\m.martinez.gutierrez\eclipse-workspace\AppBankW)
+" ï¿½"2018-12-03 14:49:55 [main] INFO  c.ws.creditcard.AppBankWApplication - No active profile set, falling back to default profiles: default
+" ï¿½"2018-12-03 14:49:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+" ï¿½"2018-12-03 14:49:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97ms. Found 3 repository interfaces.
+" ï¿½"2018-12-03 14:49:56 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$587de2ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+" ï¿½"2018-12-03 14:49:56 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+" ï¿½"2018-12-03 14:49:56 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3e61def] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+" ï¿½"2018-12-03 14:49:56 [main] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+" ï¿½"2018-12-03 14:49:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8015 (http)
+" ï¿½"2018-12-03 14:49:56 [main] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+" ï¿½"2018-12-03 14:49:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+" ï¿½"2018-12-03 14:49:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+" ï¿½"2018-12-03 14:49:57 [main] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.8] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+" ï¿½"2018-12-03 14:49:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+" ï¿½"2018-12-03 14:49:57 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2043 ms
+" ï¿½"2018-12-03 14:49:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+" ï¿½"2018-12-03 14:49:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+" ï¿½"2018-12-03 14:49:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+" ï¿½"2018-12-03 14:49:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+" ï¿½"2018-12-03 14:49:57 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+" ï¿½"2018-12-03 14:49:58 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+" ï¿½"2018-12-03 14:49:58 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+" ï¿½"2018-12-03 14:49:58 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+" ï¿½"2018-12-03 14:49:58 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4aa21f9d
+" ï¿½"2018-12-03 14:50:00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+" ï¿½"2018-12-03 14:50:01 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+" ï¿½"2018-12-03 14:50:01 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+" ï¿½"2018-12-03 14:50:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8015 (http) with context path ''
+" ï¿½"2018-12-03 14:50:02 [main] INFO  c.ws.creditcard.AppBankWApplication - Started AppBankWApplication in 7.725 seconds (JVM running for 8.874)
+" ï¿½"2018-12-03 14:51:26 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+" ï¿½"2018-12-03 14:51:26 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+" ï¿½"2018-12-03 14:51:26 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+" ï¿½"2018-12-03 14:51:26 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+" ï¿½"2018-12-03 14:51:26 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+" 
